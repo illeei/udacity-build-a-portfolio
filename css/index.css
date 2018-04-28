@@ -1,0 +1,88 @@
+body {
+  max-width: 1000px;
+  margin: 2em auto 5em auto;
+  font-family: "Tajawal";
+  color: #465775;
+  letter-spacing: .07em;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #5b6c5d;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2em;
+}
+
+h1 {
+  font-family: "Permanent Marker";
+  letter-spacing: .07em;
+  text-align: center;
+  font-size: 2.5em;
+  color: #ef6f6c;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.title > h3 {
+  text-align: center;
+}
+
+h2 {
+  margin: .5em;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card > h3 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card {
+  text-align: center;
+}
+
+
+@media screen and (min-width: 800px) {
+  header {
+    justify-content: space-between;
+    margin: 1em;
+  }
+
+  .logo {
+    max-width: 50%;
+  }
+
+  .title > h3 {
+    text-align: right;
+  }
+
+  .hero {
+    margin-top: 2em;
+    border-top: 3px solid #5b6c5d;
+    padding-top: 3em;
+  }
+
+  .projects {
+    flex-wrap: nowrap;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    margin: 0;
+  }
+}
